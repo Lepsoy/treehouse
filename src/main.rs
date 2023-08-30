@@ -13,7 +13,7 @@ struct Visitor {
     name: String,
     action: VisitorAction,
     age: i8,
-}
+
 
 impl Visitor {
     fn new(name: &str, action: VisitorAction, age: i8) -> Self {
